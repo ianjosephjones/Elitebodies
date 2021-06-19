@@ -88,3 +88,23 @@
 .mid .hero a:hover {
 	background-color: #b8eeff;
 }
+
+.about .text h6 {
+	color: #b8eeff;
+	font-weight: 800;
+	font-size: 1rem;
+	letter-spacing: 2px;
+}
+
+.about .text h2 {
+	color: #b8eeff;
+	font-weight: 700;
+	font-size: 2.3rem;
+}
+
+.what-we-do {
+	color: #b8eeff;
+	font-weight: 800;
+	font-size: 3rem;
+	letter-spacing: 2px;
+}
