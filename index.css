@@ -197,7 +197,7 @@
 }
 
 .jungle {
-	background-color: white;
+	background-color: #b8eeff;
 }
 
 .jungle .text {
@@ -209,7 +209,7 @@
 }
 
 .jungle .text h6 {
-	color: #b8eeff;
+	color: white;
 	font-weight: 800;
 	font-size: 1rem;
 	letter-spacing: 2px;
@@ -239,7 +239,7 @@
 }
 
 .jungle .text a:hover {
-	background-color: #b8eeff;
+	background-color: white;
 	color: black;
 }
 
@@ -249,6 +249,8 @@ body > footer {
 
 body
 	> footer
+	> div
+	> div
 	> ul.list-unstyled.list-inline.text-center.py-2
 	> li:nth-child(2)
 	> a {
@@ -263,6 +265,8 @@ body
 
 body
 	> footer
+	> div
+	> div
 	> ul.list-unstyled.list-inline.text-center.py-2
 	> li:nth-child(2)
 	> a:hover {
