@@ -242,3 +242,30 @@
 	background-color: #b8eeff;
 	color: black;
 }
+
+body > footer {
+	background-color: #131313 !important;
+}
+
+body
+	> footer
+	> ul.list-unstyled.list-inline.text-center.py-2
+	> li:nth-child(2)
+	> a {
+	background-color: white;
+	font-weight: 600;
+	padding: 0.4rem 1.4rem;
+	border: none;
+	border-radius: 15rem;
+	color: #131313;
+	border: none;
+}
+
+body
+	> footer
+	> ul.list-unstyled.list-inline.text-center.py-2
+	> li:nth-child(2)
+	> a:hover {
+	background-color: #b8eeff;
+	color: #131313;
+}
