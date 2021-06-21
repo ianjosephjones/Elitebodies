@@ -88,3 +88,21 @@
 .mid .hero a:hover {
 	background-color: #b8eeff;
 }
+
+.about {
+}
+
+.about .text {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	margin: auto;
+}
+
+.about .text h6 {
+	color: #b8eeff;
+	font-weight: 800;
+	font-size: 1rem;
+	letter-spacing: 2px;
+}
