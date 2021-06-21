@@ -133,3 +133,50 @@
 .group-classes .text a:hover {
 	background-color: #b8eeff;
 }
+
+.personal-training {
+	background-color: white;
+}
+
+.personal-training .text {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	margin: auto;
+}
+
+.personal-training .text h6 {
+	color: #b8eeff;
+	font-weight: 800;
+	font-size: 1rem;
+	letter-spacing: 2px;
+}
+
+.personal-training .text h2 {
+	color: #131313;
+	font-weight: 700;#b8eeff
+	font-size: 2.7rem;
+}
+
+.personal-training .text p {
+	color: #131313;
+	font-weight: 400;
+	font-size: 1.1rem;
+	letter-spacing: 0.5px;
+}
+
+.personal-training .text a {
+	background-color: black;
+	font-weight: 600;
+	padding: 0.6rem 1.4rem;
+	border: none;
+	border-radius: 15rem;
+	text-decoration: none;
+	color: white;
+}
+
+.personal-training .text a:hover {
+	background-color: #b8eeff;
+	color: black;
+}
