@@ -13,6 +13,9 @@
 			crossorigin="anonymous"
 		/>
 		<link rel="stylesheet" href="index.css" />
+		<link href="calendar.css" rel="stylesheet" />
+		<script src="events.js" defer></script>
+		<script src="calendar.js" defer></script>
 	</head>
 	<body>
 		<header>
@@ -44,7 +47,7 @@
 								<a class="nav-link" href="#jungle">Kidz Jungle Gym</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="#">Schedule</a>
+								<a class="nav-link" href="#calendar">Schedule</a>
 							</li>
 						</ul>
 						<button class="btn btn-success text-dark" type="submit">
@@ -150,10 +153,9 @@
 					<div class="one col-lg-3 col-md-3 col-12 w-25 m-2">
 						<img class="img-fluid w-75" src="/Logo/stability-ball.png" />
 						<h5 class="font-weight-bold pt-4">Weight Loss</h5>
-						<p>
-							Sometimes you just need a trainer to look at you 1 on 1. Coming
-							out of the pandemic, we've seen a lot of tightness and posture
-							issues.
+						<p>We are DIFFERENT from the usual Gym. We believe that your fitness
+							shouldn't always be about some obscure Metrics and leaderboads.
+							Its the FEELING of being FIT that we all crave. That's our focus from the GET!! 
 						</p>
 					</div>
 
@@ -161,18 +163,14 @@
 						<img class="img-fluid w-75" src="/Logo/push-ups.png" />
 						<h5 class="font-weight-bold pt-4">Strength</h5>
 						<p>
-							Sometimes you just need a trainer to look at you 1 on 1. Coming
-							out of the pandemic, we've seen a lot of tightness and posture
-							issues.
+							We are offering the MOST EXCELLENT Personal Training Sessions. No detail about your physique is going to be overlooked. We will solve your tightness issues. We will Strengthen You. Your Endurance will improve. Your Core will be Solid.
 						</p>
 					</div>
 					<div class="one col-lg-3 col-md-3 col-12 w-25 m-2">
 						<img class="img-fluid w-75" src="/Logo/training.png" />
 						<h5 class="font-weight-bold pt-4">Cardio</h5>
 						<p>
-							Sometimes you just need a trainer to look at you 1 on 1. Coming
-							out of the pandemic, we've seen a lot of tightness and posture
-							issues.
+							All of our clients will tell you that Jeff has a very INTELLECTUAL approach to EXERCISE. Taking a Class or doing Personal Training with him is a JOY. It's constant problem solving, constant repair, constant growth. 
 						</p>
 					</div>
 				</div>
@@ -213,6 +211,11 @@
 				</div>
 			</div>
 		</section>
+
+		<section>
+			<div id="calendar"></div>
+		</section>
+
 		<!-- Footer -->
 		<footer class="page-footer font-small stylish-color-dark pt-4 text-light">
 			<!-- Footer Links -->
