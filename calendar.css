@@ -2,7 +2,7 @@
 
 
 #calendar_table {
-   background-color: rgb(231, 231, 231);  
+   background-color: #b8eeff;  
    font-size: 0.9em; 
    font-family: 'Poppins';
    width: 100%;      
@@ -17,10 +17,11 @@
 }
 
 .calendar_weekdays {
-   background-color: ivory;
+   background-color: #131313;
    width: 14.28%; 
    font-size: 1em; 
    border-bottom: 3px solid gray;
+   color: white;
 }
 
 .calendar_dates {
@@ -38,6 +39,7 @@
    color: rgb(51, 51, 51);
    background-color: #b8eeff;
    border: 1px solid black;
+   color: #000;
 }
 
 

@@ -3,7 +3,7 @@
 var dayEvent = new Array();
 
 dayEvent[1] = "";
-dayEvent[2] = "<br /><a href='#'>Classic Cinema: Wings</a><br />7 pm <br />$5";
+dayEvent[2] = "<br /><a href='#'>Boxing | Group Boxing Class</a><br />6:00 AM - 6:45 AM <br> 7:00 AM - 7:45 AM <br> 8:00 AM - 8:45 AM<br />$0";
 dayEvent[3] = "<br /><a href='#'>The Future is Prologue</a><br />8 pm<br />$18/$24/$36";
 dayEvent[4] = "<br /><a href='#'>American Favorites</a><br />7:30 pm<br />$24/$36/$48";
 dayEvent[5] = "<br /><a href='#'>Classics Brunch</a><br />11 am<br />$12";
