@@ -155,7 +155,7 @@
 
 .personal-training .text h2 {
 	color: #131313;
-	font-weight: 700;#b8eeff
+	font-weight: 700;
 	font-size: 2.7rem;
 }
 
@@ -177,6 +177,68 @@
 }
 
 .personal-training .text a:hover {
+	background-color: #b8eeff;
+	color: black;
+}
+
+.services {
+	background-color: #131313;
+}
+
+.services .one {
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	padding: 2rem 1.5rem;
+	border-radius: 7px;
+}
+
+.jungle {
+	background-color: white;
+}
+
+.jungle .text {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	margin: auto;
+}
+
+.jungle .text h6 {
+	color: #b8eeff;
+	font-weight: 800;
+	font-size: 1rem;
+	letter-spacing: 2px;
+}
+
+.jungle .text h2 {
+	color: #131313;
+	font-weight: 700;
+	font-size: 2.7rem;
+}
+
+.jungle .text p {
+	color: #131313;
+	font-weight: 400;
+	font-size: 1.1rem;
+	letter-spacing: 0.5px;
+}
+
+.jungle .text a {
+	background-color: black;
+	font-weight: 600;
+	padding: 0.6rem 1.4rem;
+	border: none;
+	border-radius: 15rem;
+	text-decoration: none;
+	color: white;
+}
+
+.jungle .text a:hover {
 	background-color: #b8eeff;
 	color: black;
 }
