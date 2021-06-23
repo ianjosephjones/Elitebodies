@@ -13,9 +13,9 @@
 			crossorigin="anonymous"
 		/>
 		<link rel="stylesheet" href="index.css" />
-		<link href="calendar.css" rel="stylesheet" />
+		<!-- <link href="calendar.css" rel="stylesheet" />
 		<script src="events.js" defer></script>
-		<script src="calendar.js" defer></script>
+		<script src="calendar.js" defer></script> -->
 	</head>
 	<body>
 		<header>
@@ -145,33 +145,57 @@
 						row
 						mx-auto
 						justify-content-center
-						align-items-center
 						text-center
-						container
+						containers
 					"
 				>
-					<div class="one col-lg-3 col-md-3 col-12 w-25 m-2">
-						<img class="img-fluid w-75" src="/Logo/stability-ball.png" />
-						<h5 class="font-weight-bold pt-4">Weight Loss</h5>
-						<p>We are DIFFERENT from the usual Gym. We believe that your fitness
-							shouldn't always be about some obscure Metrics and leaderboads.
-							Its the FEELING of being FIT that we all crave. That's our focus from the GET!! 
-						</p>
+			<div class="contact-section bg-black">
+				<div class="container px-4 px-lg-5">
+					<div class="row gx-4 gx-lg-5">
+						<div class="col-md-4 mb-3 mb-md-0">
+							<div class="card py-4 h-100">
+								<div class="card-body text-center">
+									<i class="fas fa-map-marked-alt text-primary mb-2"></i>
+									<img class="card-img-top" src="/Logo/stability-ball.png" />
+									<h4 class="text-uppercase m-0">Weight Loss</h4>
+									<hr class="my-4 mx-auto" />
+									<div class="small text-black-50">
+										Work at your pace, with the guidance of trainers who will cheer you up on at every step of the way
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 mb-3 mb-md-0">
+							<div class="card py-4 h-100">
+								<div class="card-body text-center">
+									<i class="fas fa-envelope text-primary mb-2"></i>
+									<img class="card-img-top" src="/Logo/push-ups.png" />
+									<h4 class="text-uppercase m-0">Cardio</h4>
+									<hr class="my-4 mx-auto" />
+									<div class="small text-black-50">
+										Enjoy strength training, HIIT classes (high intensity interval training), boxing, and Tone & Tunes (a class with focus on abs & glutes with Afro-Caribbean music.)
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 mb-3 mb-md-0">
+							<div class="card py-4 h-100">
+								<div class="card-body text-center">
+									<i class="fas fa-mobile-alt text-primary mb-2"></i>
+									<img class="card-img-top" src="/Logo/training.png" />	
+									<h4 class="text-uppercase m-0">Strength</h4>
+									<hr class="my-4 mx-auto" />
+									<div class="small text-black-50">
+										We've got the right fitness program and support team to cheer you along your fitness journey. We bring the good vibes in our various group fitness classes
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
-
-					<div class="one col-lg-3 col-md-3 col-12 w-25 m-2">
-						<img class="img-fluid w-75" src="/Logo/push-ups.png" />
-						<h5 class="font-weight-bold pt-4">Strength</h5>
-						<p>
-							We are offering the MOST EXCELLENT Personal Training Sessions. No detail about your physique is going to be overlooked. We will solve your tightness issues. We will Strengthen You. Your Endurance will improve. Your Core will be Solid.
-						</p>
-					</div>
-					<div class="one col-lg-3 col-md-3 col-12 w-25 m-2">
-						<img class="img-fluid w-75" src="/Logo/training.png" />
-						<h5 class="font-weight-bold pt-4">Cardio</h5>
-						<p>
-							All of our clients will tell you that Jeff has a very INTELLECTUAL approach to EXERCISE. Taking a Class or doing Personal Training with him is a JOY. It's constant problem solving, constant repair, constant growth. 
-						</p>
+					<div class="social d-flex justify-content-center">
+						<a class="mx-2" href="#!"><i class="fab fa-twitter"></i></a>
+						<a class="mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
+						<a class="mx-2" href="#!"><i class="fab fa-github"></i></a>
 					</div>
 				</div>
 			</div>
@@ -212,9 +236,9 @@
 			</div>
 		</section>
 
-		<section>
-			<div id="calendar"></div>
-		</section>
+		<!-- <section>
+			<div id="calendar" class="container-fluid"></div>
+		</section> -->
 
 		<!-- Footer -->
 		<footer class="page-footer font-small stylish-color-dark pt-4 text-light">
@@ -255,7 +279,7 @@
 			<!-- Call to action -->
 			<ul class="list-unstyled list-inline text-center py-2">
 				<li class="list-inline-item">
-					<h5 class="mb-1">Sign up for your first class</h5>
+					<h5 class="mb-1">Sign up for your first FREE class</h5>
 				</li>
 				<li class="list-inline-item">
 					<a href="#!" class="btn btn-danger btn-rounded">Sign up!</a>
@@ -293,6 +317,8 @@
 					</a>
 				</li>
 			</ul> -->
+
+			
 		</footer>
 
 		<script
